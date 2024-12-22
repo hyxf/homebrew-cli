@@ -10,10 +10,6 @@ class Gitiles < Formula
     strategy :github_latest
   end
 
-  bottle do
-    sha256 cellar: :any_skip_relocation, all: "f7fff670b0c63e57d5df75f868fcc9d85d70341e1b464158f91be13310332f47"
-  end
-
   depends_on "openjdk@17"
 
   def install
